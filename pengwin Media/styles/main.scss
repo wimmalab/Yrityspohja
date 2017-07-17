@@ -5,13 +5,13 @@
 */
 
 // VARIABLES
-$main-light: #fcfafa;
-$main-medium: #d8d8d8;
+$main-light: #eee;
+$main-medium: #eee;
 $main-dark: #242424;
 $main-color: #7f2683;
 
-$light-accent: #e6e4e4;
-$medium-accent: #c5c5c5;
+$light-accent: #333;
+$medium-accent: #333;
 $dark-accent: #444;
 $color-accent: grey;
 
@@ -28,7 +28,7 @@ $light-shadow: rgba(15, 15, 15, 0.4);
 body {
     font-family: 'Century Gothic', sans-serif;
     font-weight: bold;
-    background: url(../img/bg-about.png);
+    background: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -184,7 +184,7 @@ p {
 
 .landing-new {
   height: 100vh;
-  background: url(../img/bg.jpg);
+  background: url(../img/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
