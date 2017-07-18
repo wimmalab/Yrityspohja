@@ -8,7 +8,7 @@
 $main-light: #eee;
 $main-medium: #eee;
 $main-dark: #242424;
-$main-color: #7f2683;
+$main-color: #ff793f;
 
 $light-accent: #333;
 $medium-accent: #333;
@@ -113,7 +113,7 @@ p {
         }
     }
     .navbar-nav > .active > a {
-        color: $main-dark;
+        color: $main-light;
         background-color: $light-accent;
         border-left: 3px solid $color-accent;
         padding-left: 18px;
@@ -214,7 +214,9 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 10em 0em
+  padding: 10em 0em;
+
+  color: $main-light;
 }
 
 .container {
@@ -276,6 +278,12 @@ strong {
 
 }
 
+.note-dark {
+  padding: 4em;
+  background-color: $main-dark;
+  color: $main-light;
+}
+
 .clear {
   clear: both;
 }
@@ -318,7 +326,7 @@ strong {
 @media only screen and (max-width: 768px) {
 
   .landing-new {
-    background: url(../img/bg-small.jpg);
+    //background: url(../img/bg-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
