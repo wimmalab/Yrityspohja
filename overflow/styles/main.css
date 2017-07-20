@@ -11,7 +11,7 @@
 body {
   font-family: 'Century Gothic', sans-serif;
   font-weight: bold;
-  background: url(../img/bg-about.png);
+  background: url(../img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -50,11 +50,11 @@ p {
     .navbar-default .navbar-brand:focus {
       color: #fcfafa; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active {
-      color: #7f2683; }
+      color: #d8312e; }
       .navbar-default .navbar-brand:hover span, .navbar-default .navbar-brand:active span {
         color: #e6e4e4; }
     .navbar-default .navbar-brand span {
-      color: #7f2683;
+      color: #d8312e;
       font-weight: 300;
       -webkit-transition: color .3s;
       -moz-transition: color .3s;
@@ -78,7 +78,7 @@ p {
       color: #e6e4e4; }
       @media only screen and (min-width: 768px) {
         .navbar-default .navbar-nav > li > a:hover {
-          color: #7f2683; } }
+          color: #d8312e; } }
   .navbar-default .navbar-nav > .active > a {
     color: #242424;
     background-color: #e6e4e4;
@@ -91,7 +91,7 @@ p {
         background-color: transparent;
         border-left: none;
         padding-left: 15px;
-        box-shadow: 0 -3px 0px #7f2683 inset; } }
+        box-shadow: 0 -3px 0px #d8312e inset; } }
     .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
       color: #242424;
       background-color: #e6e4e4;
@@ -104,14 +104,14 @@ p {
           background-color: transparent;
           border-left: none;
           padding-left: 15px;
-          box-shadow: 0 -3px 0px #7f2683 inset; } }
+          box-shadow: 0 -3px 0px #d8312e inset; } }
 
 .button-blog {
   border: 3px solid white;
   padding: 0.65em 1.4em;
   color: #fcfafa; }
   .button-blog:hover {
-    background-color: #7f2683; }
+    background-color: #d8312e; }
 
 .landing {
   background: url(../img/mysticons_hero.png) no-repeat;
@@ -138,7 +138,7 @@ p {
 
 .landing-new {
   height: 100vh;
-  background: url(../img/bg.jpg);
+  background: url(../img/overflow_hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ strong {
     font-size: 300%; } }
 @media only screen and (max-width: 768px) {
   .landing-new {
-    background: url(../img/bg-small.jpg);
+    background: url(../img/hero-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
