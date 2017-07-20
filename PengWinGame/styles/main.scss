@@ -154,7 +154,7 @@ p {
 
 
 .landing {
-    background: url(../img/mysticons_hero.png) no-repeat;
+    background: url(../img/hero.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -169,7 +169,7 @@ p {
         text-align: right;
     }
     .logo {
-        background: url(../img/mysticons_hero.png) no-repeat;
+        background: url(../img/hero.jpg) no-repeat;
         background-size: cover;
         min-height: 100vh;
 
@@ -184,7 +184,7 @@ p {
 
 .landing-new {
   height: 100vh;
-  background: url(../img/pengwingamebg.png);
+  background: url(../img/hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -318,7 +318,7 @@ strong {
 @media only screen and (max-width: 768px) {
 
   .landing-new {
-    background: url(../img/bg-small.jpg);
+    background: url(../img/hero-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
