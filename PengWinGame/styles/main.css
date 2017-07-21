@@ -138,7 +138,7 @@ p {
 
 .landing-new {
   height: 100vh;
-  background: url(../img/pengwingamebg.jpg);
+  background: url(../img/pengwingamebg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ p {
 
 .team {
   min-height: 100vh;
-  background: url(../img/team.jpg);
+  background: url(../img/teambg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
