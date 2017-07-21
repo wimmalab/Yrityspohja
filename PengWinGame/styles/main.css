@@ -11,7 +11,7 @@
 body {
   font-family: 'Century Gothic', sans-serif;
   font-weight: bold;
-  background: url(../img/bg-about.png);
+  background: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -114,7 +114,7 @@ p {
     background-color: #00B388; }
 
 .landing {
-  background: url(../img/mysticons_hero.png) no-repeat;
+  background: url(../img/hero.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -128,7 +128,7 @@ p {
   .landing p {
     text-align: right; }
   .landing .logo {
-    background: url(../img/mysticons_hero.png) no-repeat;
+    background: url(../img/hero.jpg) no-repeat;
     background-size: cover;
     min-height: 100vh; }
     .landing .logo .smoke {
@@ -138,7 +138,7 @@ p {
 
 .landing-new {
   height: 100vh;
-  background: url(../img/pengwingamebg.png);
+  background: url(../img/hero.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ strong {
     font-size: 300%; } }
 @media only screen and (max-width: 768px) {
   .landing-new {
-    background: url(../img/bg-small.jpg);
+    background: url(../img/hero-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
